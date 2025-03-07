@@ -9,22 +9,22 @@ Can be run as a console application locally and windows service on Prod.
 
 * PowerPositionReportService
 
-    <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.2" />
-    <PackageReference Include="Microsoft.Extensions.Hosting.WindowsServices" Version="9.0.2" />
-    <PackageReference Include="Serilog" Version="4.2.0" />
-    <PackageReference Include="Serilog.Extensions.Hosting" Version="9.0.0" />
-    <PackageReference Include="Serilog.Settings.Configuration" Version="9.0.0" />
-    <PackageReference Include="Serilog.Sinks.Console" Version="6.0.0" />
-    <PackageReference Include="Serilog.Sinks.File" Version="6.0.0" />
+1. Microsoft.Extensions.Hosting" Version="9.0.2"
+2. Microsoft.Extensions.Hosting.WindowsServices" Version="9.0.2"
+3. Serilog" Version="4.2.0"
+4. Serilog.Extensions.Hosting" Version="9.0.0"
+5. Serilog.Settings.Configuration" Version="9.0.0"
+6. Serilog.Sinks.Console" Version="6.0.0"
+7. Serilog.Sinks.File" Version="6.0.0"
 
 * PowerPositionReportService.Tests
 
-	<PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.2" />
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.12.0" />
-    <PackageReference Include="Microsoft.Testing.Extensions.CodeCoverage" Version="17.12.6" />
-    <PackageReference Include="Microsoft.Testing.Extensions.TrxReport" Version="1.4.3" />
-    <PackageReference Include="Moq" Version="4.20.72" />
-    <PackageReference Include="MSTest" Version="3.6.4" />
+1. Microsoft.Extensions.Configuration" Version="9.0.2"
+2. Microsoft.NET.Test.Sdk" Version="17.12.0"
+3. Microsoft.Testing.Extensions.CodeCoverage" Version="17.12.6"
+4. Microsoft.Testing.Extensions.TrxReport" Version="1.4.3"
+5. Moq" Version="4.20.72"
+6. MSTest" Version="3.6.4"
 	
 # Has below configurabale settings 
 
@@ -36,4 +36,4 @@ Can be run as a console application locally and windows service on Prod.
 
 4. RetryDelaySeconds - Interval between each Retry attempt
 
-5. Serilog - path - Path of a log file
+5. Serilog - path - Path of a log files
